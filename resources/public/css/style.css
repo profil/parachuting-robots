@@ -1,0 +1,38 @@
+* { box-sizing: border-box; }
+#app {
+	max-width: 800px;
+	margin: 0 auto;
+}
+#app svg {
+	width: 100%;
+	border: 1px dashed #000;
+	margin: 20px auto;
+}
+#app #input { clear: both; }
+#app textarea {
+	background-color: #f0f0f0;
+	outline: none !important;
+	margin-right: 10px;
+}
+#app textarea, #app table {
+	width: calc(50% - 5px);
+	font-family: monospace;
+	float: left;
+}
+#buttons {
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+#buttons button {
+	margin: auto 3px;
+}
+th, td {
+	border: 1px solid #666;
+}
+.r1, .r2 {
+	margin: auto;
+	width: 10px;
+	height: 10px;
+}
+.r1 { background-color: #b20045; }
+.r2 { background-color: #00aad4; }
